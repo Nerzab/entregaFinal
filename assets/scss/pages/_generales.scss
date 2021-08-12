@@ -22,7 +22,7 @@ a{
     &__lista{
         @include flex(row, space-evenly, center);
         @include Tamanio(100%,  6.25rem);
-        font-size: 1.375rem;
+        font-size: 1.575rem;
         margin-right: 6%;
         background-color: $colorNavegador;
         margin-bottom: 5%;
@@ -36,7 +36,7 @@ a{
         &--activo{
             
             color:$colorActivo;
-            font-size: 2rem;
+            font-size: 2.3rem;
         }
     }
 }
@@ -98,12 +98,30 @@ a{
 
 
     .piePagina__texto{
-        font-size: 0.875rem;
+        font-size: 0.775rem;
         word-spacing: 0.3rem;
     }
 }
 
 
 
-
+@media only screen and (max-width:600px){
+    .navegador{
+    
+        &__lista{
+            @include flex(row, space-evenly, center);
+            @include Tamanio(100%,  4.25rem);
+            font-size: 1rem;
+        }
+    
+        &__link{
+    
+            &--activo{
+                
+                color:$colorActivo;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
 

@@ -6,7 +6,7 @@
     padding-left: 30%;
 }
 .divImg3{
-    padding-left: 34%;
+    padding-left: 32%;
 }
 
 @media only screen and (max-width:600px){
@@ -46,9 +46,9 @@
         }
     }   
     .divImg3{
-        padding-right: 30%;
+        padding-right: 25%;
         img{
-            @include Tamanio( 100%, 100%)
+            @include Tamanio( 75%, 100%)
         }
     }
 
@@ -64,13 +64,13 @@
     }
     .divImg2{
         img{
-            @include Tamanio( 60%,100%)
+            @include Tamanio( 70%,50%)
         }
     }
     .divImg3{
-        padding-right: 30%;
+        padding-right: 25%;
         img{
-            @include Tamanio( 100%, 100%)
+            @include Tamanio( 80%, 100%)
         }
     }
 }
