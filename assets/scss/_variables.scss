@@ -1,0 +1,29 @@
+$colorFooterTexto: #0d09ce;
+$colorNavegador: #808080;
+$colorNavegadorLetra:#000000;
+$colorActivo:#16036E;
+$colorFondo: #000000;
+$colorListas: #8868a2;
+$colorLinks: #807b7a;
+$colorTitulo:#f5f5f5;
+$colorDescripcion:#808080; 
+$colorContacto: #ff0000;
+$colorDiscografia: #8f93ff;
+$colorBotones:#000000;
+
+
+// Medidas
+
+
+
+@mixin flex($dir, $justify, $aling) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+@mixin Tamanio($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}      

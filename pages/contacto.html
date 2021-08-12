@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" description="Si queres dejar un mensaje al equipo o simplemente mandar un saludo">
+    <meta name="keywords"  content="mensaje, saludos, contacto, suicideboys, $crim, ruby da cherry, g59">
+    <title>$UICIDEBOY$ - Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="logo">
+        <img class="img-fluid" src="../img/logo.png" alt="logo">
+    </header>
+    <nav class="navegador">
+        <div class="navegador__item">
+            <ul class="navegador__lista">
+                <li><a class="navegador__link" href="../index.html">Home</a></li>
+                <li><a class="navegador__link" href="./discografia.html">Discografia</a></li>
+                <li><a class="navegador__link" href="./tours.html">Tour</a></li>
+                <li><a class="navegador__link" href="./galeria.html">Galeria</a></li>
+                <li><a class="navegador__link navegador__link--activo" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>   
+
+    </nav>     
+    <!-- <main class="container">
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="nombreUser" class="form-label text-danger">Nombre</label>
+                <input type="name" class="form-control" id="nombreUser" placeholder="Su nombre">
+            </div>
+            <div class=" mb-3">
+                <label for="email" class="form-label text-danger">Su email</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+            </div>
+            <p class="text-danger">Es usted mayor de edad</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="mayorEdad">
+                <label class="form-check-label text-danger" for="mayorEdad">
+                    Si
+                </label>
+            </div>
+            <div class="form-check mb-4">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="menorEdad" >
+                <label class="form-check-label text-danger" for="menorEdad">
+                    No
+                </label>
+            </div>
+            <div class=" mb-3">
+                <label for="comments" class="form-label text-danger">Comentario</label>
+                <textarea class="form-control" id="comments" rows="3" placeholder="Mensaje que quieras dejar"></textarea>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="terminos">
+                <label class="form-check-label text-danger" for="terminos">
+                    Acepta nuestro terminos y condiciones.
+                </label>
+            </div>
+            <div>
+                <button class="btn btn-primary buttonColor" type="submit">Enviar</button>
+            </div>
+        </form> -->
+    <main>
+        <form action="" method="post">
+
+            <fieldset>
+                <div class="divNameEmail">
+                    <label class="" for="email">Email</label>
+                    <input class="inputEmail" type="email" placeholder="Ingrese su email de contacto " id="email">
+                    <label for="nombre">Nombre</label>
+                    <input class="inputName" type="text" placeholder="Tu nombre" id="nombre">
+                </div>
+
+                <div class="divSex">
+                    <label for="sexo">Sexo</label>
+                    <select  class="selectSex" name="sex" id="sexo">
+                        <option value="none" disabled selected>Elija una de las opciones</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="ninguno">No me identifico con los ejemplos mostrados</option>
+                    </select>
+                </div>
+
+                <div class="divAge">
+                    <label for="edad" id>Eres mayor de edad</label>
+                    <select class="selectAge" name="age" id="edad">
+                        <option value="none" disabled selected>Elija una de las opciones</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="divText">
+                    <textarea name="comentario" placeholder="Mensaje que quieras dejar" id="comment" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="acepta">Acepta nuestros terminos y condiciones</label>
+                    <input type="checkbox" id="acepta">
+                </div>
+                
+                <div class="divInput">
+                    <input class="inputLast" type="submit" value="Enviar">
+                    <input class="inputLast" type="reset" value="Reiniciar">
+                </div>
+                
+            </fieldset>
+                
+        </form>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </main>
+
+
+    <footer class="piePagina">
+        <div class="piePagina__item1">
+            <p class="piePagina__texto">Página sin fines de lucro ni comerciales</p>
+            <p class="piePagina__texto">Nuestras redes</p>
+        </div>
+        <div class="piePagina__item">
+            <a class="piePagina__link" href="https://www.instagram.com/suicideboys/"><img class="piePagina__imagen" src="../img/redes/instagram.png" alt="instagram"></a>
+            <a class="piePagina__link" href="https://www.youtube.com/channel/UCU5AbNuMPGB491GcqXuzwKw"><img class="piePagina__imagen" src="../img/redes/youtube.png" alt="youtube"></a>
+            <a class="piePagina__link" href="https://www.deezer.com/es/artist/10159994?autoplay=true"><img class="piePagina__imagen" src="../img/redes/deezer.png" alt="deezer"></a>
+            <a class="piePagina__link" href="https://soundcloud.com/g59"> <img class="piePagina__imagen" src="../img/redes/soundcloud.png" alt="soundcloud"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+

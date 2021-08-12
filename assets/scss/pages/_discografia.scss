@@ -1,0 +1,16 @@
+.albums{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 28.75rem 28.75rem 28.75rem;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3.125rem;
+    img{
+        @include Tamanio(100%, 100%)
+    } 
+}
+h1{
+    color: $colorDiscografia;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 3%;
+}

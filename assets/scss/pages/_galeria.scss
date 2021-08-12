@@ -1,0 +1,76 @@
+
+.divImg{
+    padding-left: 25%;
+}
+.divImg2{
+    padding-left: 30%;
+}
+.divImg3{
+    padding-left: 34%;
+}
+
+@media only screen and (max-width:600px){
+
+    .divImg {
+        padding-right:20%;
+        img{
+            @include Tamanio( 90%, 100%)
+        }
+    }
+
+    .divImg2 {
+        img{
+            @include Tamanio(60%,100%)
+        }
+}
+    .divImg3{
+        padding-right: 30%;
+        img{
+            @include Tamanio( 100%, 100%)
+        }
+    }
+}
+
+@media only screen and (min-width:600px){
+
+    .divImg {
+        padding-right: 20%;
+        img{
+            @include Tamanio( 90%, 100%)
+        }
+    }
+
+    .divImg2 {
+        img{
+            @include Tamanio( 60%,100%)
+        }
+    }   
+    .divImg3{
+        padding-right: 30%;
+        img{
+            @include Tamanio( 100%, 100%)
+        }
+    }
+
+}
+
+
+@media only screen and (min-width:992px) {
+    .divImg {
+        padding-right: 20%;
+        img{
+            @include Tamanio( 90%, 100%)
+        }
+    }
+    .divImg2{
+        img{
+            @include Tamanio( 60%,100%)
+        }
+    }
+    .divImg3{
+        padding-right: 30%;
+        img{
+            @include Tamanio( 100%, 100%)
+        }
+    }
+}

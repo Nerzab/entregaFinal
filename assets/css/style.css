@@ -1,0 +1,269 @@
+body {
+  background-color: #000000;
+  margin: 0rem;
+  padding: 0rem; }
+
+th, li {
+  color: #8868a2; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #807b7a; }
+
+.navegador__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 6.25rem;
+  font-size: 1.375rem;
+  margin-right: 6%;
+  background-color: #808080;
+  margin-bottom: 5%; }
+
+.navegador__link {
+  color: #000000;
+  text-decoration: none; }
+  .navegador__link--activo {
+    color: #16036E;
+    font-size: 2rem; }
+
+.logo {
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  animation-name: logoTest;
+  animation-duration: 2500ms;
+  animation-iteration-count: 1; }
+
+@keyframes logoTest {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.piePagina__item1 {
+  margin-left: 70%;
+  padding-top: 20%;
+  margin-bottom: 2%; }
+
+.piePagina__texto {
+  color: #0d09ce; }
+
+.piePagina__item {
+  margin-left: 70%;
+  margin-bottom: 2%; }
+
+.piePagina__link {
+  text-decoration: none; }
+
+.piePagina__imagen {
+  width: 12%;
+  height: 15%; }
+
+@media only screen and (max-width: 600px) {
+  footer {
+    font-size: 0.688rem;
+    word-spacing: 0.688rem; } }
+
+@media only screen and (min-width: 600px) {
+  .piePagina__texto {
+    font-size: 0.875rem;
+    word-spacing: 0.3rem; } }
+
+.nombreSuicide {
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 5rem;
+  margin-top: 5%;
+  letter-spacing: 0.625rem;
+  font-family: 'Ubuntu', sans-serif; }
+
+.index {
+  width: 100%;
+  height: 100%;
+  padding-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center; }
+  .index .descripcion {
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1rem;
+    line-height: 2; }
+  .index img {
+    width: 80%;
+    height: 100%; }
+
+@media only screen and (max-width: 600px) {
+  .nombreSuicide {
+    margin-top: 3%;
+    font-size: 2.063rem; }
+  .descripcion {
+    font-size: 0.625rem; } }
+
+@media only screen and (min-width: 600px) {
+  .nombreSuicide {
+    margin-top: 3%;
+    font-size: 3.125rem; }
+  .descripcion {
+    font-size: 0.875rem; } }
+
+@media only screen and (min-width: 992px) {
+  .nombreSuicide {
+    margin-top: 3%;
+    font-size: 3.75rem; }
+  .descripcion {
+    font-size: 0.938rem; } }
+
+.albums {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 28.75rem 28.75rem 28.75rem;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 3.125rem; }
+  .albums img {
+    width: 100%;
+    height: 100%; }
+
+h1 {
+  color: #8f93ff;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 3%; }
+
+.tourList {
+  margin-top: 6%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 15.625rem; }
+  .tourList li {
+    display: inline-block;
+    margin: 1.25rem; }
+    .tourList li .buttonColor {
+      color: #000000; }
+
+.divImg {
+  padding-left: 25%; }
+
+.divImg2 {
+  padding-left: 30%; }
+
+.divImg3 {
+  padding-left: 34%; }
+
+@media only screen and (max-width: 600px) {
+  .divImg {
+    padding-right: 20%; }
+    .divImg img {
+      width: 90%;
+      height: 100%; }
+  .divImg2 img {
+    width: 60%;
+    height: 100%; }
+  .divImg3 {
+    padding-right: 30%; }
+    .divImg3 img {
+      width: 100%;
+      height: 100%; } }
+
+@media only screen and (min-width: 600px) {
+  .divImg {
+    padding-right: 20%; }
+    .divImg img {
+      width: 90%;
+      height: 100%; }
+  .divImg2 img {
+    width: 60%;
+    height: 100%; }
+  .divImg3 {
+    padding-right: 30%; }
+    .divImg3 img {
+      width: 100%;
+      height: 100%; } }
+
+@media only screen and (min-width: 992px) {
+  .divImg {
+    padding-right: 20%; }
+    .divImg img {
+      width: 90%;
+      height: 100%; }
+  .divImg2 img {
+    width: 60%;
+    height: 100%; }
+  .divImg3 {
+    padding-right: 30%; }
+    .divImg3 img {
+      width: 100%;
+      height: 100%; } }
+
+label {
+  color: #ff0000;
+  margin: 20%; }
+
+fieldset {
+  margin-top: 5%;
+  width: 40%;
+  height: 28.125rem;
+  position: relative;
+  left: 29%; }
+  fieldset .divNameEmail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.563rem 1.563rem;
+    align-items: center;
+    width: 50%;
+    height: 1.875rem; }
+  fieldset .divSex {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: center;
+    width: 22%;
+    height: 21%; }
+  fieldset .divAge {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: center;
+    width: 23%;
+    height: 15%; }
+  fieldset .divText {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    padding-left: 10%;
+    padding-top: 1rem;
+    width: 80%;
+    height: 12.5rem; }
+  fieldset .divInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center; }
+  fieldset .inputName {
+    position: relative;
+    right: 3.9%;
+    height: 1.29rem; }
+  fieldset .inputEmail {
+    position: relative;
+    right: 3.9%; }
+  fieldset .selectSex {
+    position: relative;
+    right: -27.8%;
+    height: 2rem; }
+  fieldset .selectAge {
+    position: relative;
+    right: -16.8%; }

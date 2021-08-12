@@ -1,0 +1,17 @@
+.tourList{
+    margin-top: 6%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 15.625rem;
+    li{
+        display: inline-block;
+        margin: 1.25rem;
+        .buttonColor{
+            color: $colorBotones;
+        }
+    } 
+}
+
+
+
