@@ -24,9 +24,6 @@
         padding-right: 1rem;   
         line-height: 2;
     }
-    img{
-        @include Tamanio(80%, 100%)
-    }
 }
 
 
@@ -41,6 +38,9 @@
     .descripcion{
         font-size: 0.625rem;
     }
+    .index img{
+        @include Tamanio(80%, 70%)
+    }
 }
 
 @media only screen and (min-width:600px){
@@ -51,6 +51,9 @@
     }
     .descripcion{
         font-size:0.875rem;
+    }
+    .index img{
+        @include Tamanio(80%, 60%)
     }
 }
 
@@ -64,6 +67,9 @@
     }
     .descripcion{
         font-size: 0.938rem;
+    }
+    .index img{
+        @include Tamanio(80%, 100%)
     }
 }
 
