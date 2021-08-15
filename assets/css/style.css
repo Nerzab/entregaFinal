@@ -189,6 +189,15 @@ h1 {
     .tourList li .buttonColor {
       color: #000000; }
 
+.redireccionVideos {
+  color: #ffffff;
+  margin-left: 5%;
+  margin-top: 15%; }
+
+.redireccionBoton button {
+  margin-left: 5%;
+  color: #000000; }
+
 .divImg {
   padding-left: 25%; }
 
@@ -250,3 +259,13 @@ label {
   margin-top: 5%;
   width: 40%;
   height: 28.125rem; }
+
+.error {
+  color: #ff0000;
+  text-align: center;
+  font-size: 80px; }
+
+.errorTexto {
+  color: #ffff00;
+  text-align: center;
+  font-size: 2rem; }
