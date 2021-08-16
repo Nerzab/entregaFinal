@@ -13,24 +13,23 @@ a {
   text-decoration: none;
   color: #807b7a; }
 
-.navegador__lista {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   height: 6.25rem;
-  font-size: 1.575rem;
+  font-size: 1.3rem;
   margin-right: 6%;
   background-color: #808080;
   margin-bottom: 5%; }
-
-.navegador__link {
-  color: #000000;
-  text-decoration: none; }
-  .navegador__link--activo {
+  nav ul li .navActivo {
     color: #17036e;
-    font-size: 2.3rem; }
+    font-size: 1.7rem; }
+  nav ul li a {
+    color: #000000;
+    text-decoration: none; }
 
 .logo {
   margin-top: 3.125rem;
@@ -68,17 +67,7 @@ a {
   height: 15%; }
 
 @media only screen and (max-width: 600px) {
-  footer {
-    font-size: 0.688rem;
-    word-spacing: 0.688rem; } }
-
-@media only screen and (min-width: 600px) {
-  .piePagina__texto {
-    font-size: 0.775rem;
-    word-spacing: 0.3rem; } }
-
-@media only screen and (max-width: 600px) {
-  .navegador__lista {
+  nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -86,9 +75,22 @@ a {
     width: 100%;
     height: 4.25rem;
     font-size: 1rem; }
-  .navegador__link--activo {
-    color: #17036e;
-    font-size: 1.5rem; } }
+    nav ul li .navActivo {
+      color: #17036e;
+      font-size: 1.2rem; }
+  .piePagina__texto {
+    font-size: 0.625rem;
+    word-spacing: 0.4rem; } }
+
+@media only screen and (min-width: 600px) {
+  .piePagina__texto {
+    font-size: 0.775rem;
+    word-spacing: 0.3rem; } }
+
+@media only screen and (min-width: 992px) {
+  .piePagina__texto {
+    font-size: 0.895rem;
+    word-spacing: 0.3rem; } }
 
 .nombreSuicide {
   width: 100%;
@@ -139,7 +141,7 @@ a {
     margin-top: 3%;
     font-size: 3.75rem; }
   .descripcion {
-    font-size: 0.938rem; }
+    font-size: 1rem; }
   .index img {
     width: 80%;
     height: 100%; } }
@@ -154,7 +156,7 @@ a {
 h1 {
   color: #8f93ff;
   font-family: 'Ubuntu', sans-serif;
-  padding-left: 3%; }
+  padding-left: 5%; }
 
 @media only screen and (max-width: 600px) {
   .albums {
@@ -187,7 +189,9 @@ h1 {
     display: inline-block;
     margin: 1.25rem; }
     .tourList li .buttonColor {
-      color: #000000; }
+      color: #000000;
+      background-color: #808080;
+      border: #808080; }
 
 .redireccionVideos {
   color: #cfcfcf;
@@ -196,7 +200,9 @@ h1 {
 
 .redireccionBoton button {
   margin-left: 10%;
-  color: #000000; }
+  color: #000000;
+  background-color: #808080;
+  border: #808080; }
 
 .divImg {
   padding-left: 25%; }
@@ -253,12 +259,31 @@ h1 {
       height: 100%; } }
 
 label {
-  color: #ff0000; }
+  color: #c07d7d; }
+
+.edadColor {
+  color: #c07d7d; }
 
 .formTamanio {
   margin-top: 5%;
   width: 40%;
   height: 28.125rem; }
+
+.buttonForm {
+  margin-top: 1.7rem;
+  height: 3.125;
+  width: 6.25;
+  font-size: 1.2rem;
+  color: #000000;
+  background-color: #808080;
+  border: #808080; }
+
+@media only screen and (max-width: 600px) {
+  .buttonForm {
+    margin-top: 1.7rem;
+    height: 2.125;
+    width: 3.25;
+    font-size: 1rem; } }
 
 .error {
   color: #ff0000;

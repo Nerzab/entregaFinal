@@ -1,11 +1,41 @@
 label{
     color: $colorContacto;
 }
+.edadColor{
+    color: $colorContacto;
+}
 .formTamanio{
     margin-top: 5%;
     @include Tamanio(40%,28.125rem);
+}
+.buttonForm{
+    margin-top: 1.7rem;
+    height: 3.125;
+    width: 6.25;
+    font-size: 1.2rem;
+    color: $colorBotones;
+    background-color: $colorFondoBotones;
+    border: $colorFondoBotones;
+}
+
+
+@media only screen and (max-width:600px){
+    
+    .buttonForm{
+        margin-top: 1.7rem;
+        height: 2.125;
+        width: 3.25;
+        font-size: 1rem;
+    }
 
 }
+
+
+
+
+
+
+
 
 // fieldset{
 //     margin-top: 5%;

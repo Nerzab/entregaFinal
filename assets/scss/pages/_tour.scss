@@ -9,6 +9,8 @@
         margin: 1.25rem;
         .buttonColor{
             color: $colorBotones;
+            background-color: $colorFondoBotones;
+            border: $colorFondoBotones;
         }
     } 
 }
@@ -23,5 +25,7 @@
     button{
         margin-left: 10%;
         color: $colorBotones;
+        background-color: $colorFondoBotones;
+        border: $colorFondoBotones;
     }
 }
