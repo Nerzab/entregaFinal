@@ -61,25 +61,20 @@ nav{
 }
 
 
-.piePagina{
-    
-    &__item1{
+footer{
+    margin-top: 10%;
+    div{
         margin-left: 70%;
-        padding-top: 20%;
         margin-bottom: 2%;
     }
-    &__texto{
+    p{
         color: $colorFooterTexto;       
 
     }
-    &__item{
-        margin-left: 70%;
-        margin-bottom: 2%;
-    }
-    &__link{
+    a{
         text-decoration: none;
     }
-    &__imagen{
+    img{
         @include Tamanio(12%, 15%);
     }
 }
@@ -99,28 +94,29 @@ nav{
         }
     }
 
-
-    .piePagina__texto{
-        font-size:0.625rem;
-        word-spacing: 0.4rem;
+    footer{
+        p{
+            font-size:0.625rem;
+            word-spacing: 0.4rem;
+        }
     }
 }
 @media only screen and (min-width:600px){
 
 
-    .piePagina__texto{
-        font-size: 0.775rem;
-        word-spacing: 0.3rem;
+    footer{
+        p{
+            font-size: 0.775rem;
+            word-spacing: 0.3rem;
+        }
     }
 }
-
 
 @media only screen and (min-width:992px) {
-
-    .piePagina__texto{
-        font-size: 0.895rem;
-        word-spacing: 0.3rem;
+    footer{
+        p{
+            font-size: 0.895rem;
+            word-spacing: 0.3rem;
+        }
     }
 }
-
-
