@@ -29,3 +29,83 @@
         border: $colorFondoBotones;
     }
 }
+
+@media only screen and (max-width:600px){
+
+    .tourList{
+        li{
+            font-size: 0.825rem;
+            .buttonColor{
+                margin-top: 1.7rem;
+                height: 2.125;
+                width: 3.25;
+                font-size: 0.825rem;
+            }
+        }
+    }
+    .redireccionVideos{
+        font-size: 0.825rem;
+    }
+    .redireccionBoton{
+        button{
+            margin-top: 1.7rem;
+            height: 2.125;
+            width: 3.25;
+            font-size: 0.825rem;
+        }
+    }
+}
+
+@media only screen and (min-width:600px){
+
+    .tourList{
+        li{
+            font-size: 0.925rem;
+            .buttonColor{
+                margin-top: 1.7rem;
+                height: 1.125;
+                width: 2.25;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .redireccionVideos{
+        font-size: 0.925rem;
+    }
+    .redireccionBoton{
+        button{
+            margin-top: 1.7rem;
+            height: 1.125;
+            width: 2.25;
+            font-size: 0.9rem;
+        }
+    }
+}
+@media only screen and (min-width:992px) {
+    .tourList{
+        li{
+            font-size: 1rem;
+            .buttonColor{
+                margin-top: 1.7rem;
+                height: 3.125;
+                width: 6.25;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .redireccionVideos{
+        font-size: 1rem;
+    }
+    .redireccionBoton{
+        button{
+            margin-top: 1.7rem;
+            height: 3.125;
+            width: 6.25;
+            font-size: 1.2rem;
+            font-size: 1rem;
+        }
+    }
+
+}
+
+

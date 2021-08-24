@@ -15,15 +15,20 @@ ul{
 a{
     text-decoration: none;
     color: $colorLinks;
-}
 
+}
+h1{
+    color: $colorOtrosTitulos;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 5%;
+}
 nav{
     ul{
         @include flex(row, space-evenly, center);
-        @include Tamanio(100%,  6.25rem);
+        @include Tamanio(100%,  4.5rem);
         font-size: 1.3rem;
         margin-right: 6%;
-        background-color: $colorNavegador;
+        background-color: $colorNavegadorYFooter;
         margin-bottom: 5%;
         li{
             .navActivo{
@@ -62,20 +67,16 @@ nav{
 
 
 footer{
+    background-color: $colorNavegadorYFooter;
     margin-top: 10%;
-    div{
-        margin-left: 70%;
-        margin-bottom: 2%;
-    }
-    p{
-        color: $colorFooterTexto;       
-
-    }
     a{
         text-decoration: none;
     }
+    p{
+        color: $colorFooterTexto;
+    }
     img{
-        @include Tamanio(12%, 15%);
+        @include Tamanio(12%,30%);
     }
 }
 
@@ -95,9 +96,9 @@ footer{
     }
 
     footer{
+        margin-top: 15%;
         p{
             font-size:0.625rem;
-            word-spacing: 0.4rem;
         }
     }
 }
@@ -105,18 +106,18 @@ footer{
 
 
     footer{
+        margin-top: 15%;
         p{
             font-size: 0.775rem;
-            word-spacing: 0.3rem;
         }
     }
 }
 
 @media only screen and (min-width:992px) {
     footer{
+        margin-top: 15%;
         p{
             font-size: 0.895rem;
-            word-spacing: 0.3rem;
         }
     }
 }

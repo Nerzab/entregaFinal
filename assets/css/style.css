@@ -4,7 +4,7 @@ body {
   padding: 0rem; }
 
 th, li {
-  color: #8868a2; }
+  color: #f5f5f5; }
 
 ul {
   list-style: none; }
@@ -13,16 +13,21 @@ a {
   text-decoration: none;
   color: #807b7a; }
 
+h1 {
+  color: #f7f7f7;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 5%; }
+
 nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 6.25rem;
+  height: 4.5rem;
   font-size: 1.3rem;
   margin-right: 6%;
-  background-color: #808080;
+  background-color: #7e59;
   margin-bottom: 5%; }
   nav ul li .navActivo {
     color: #17036e;
@@ -48,17 +53,15 @@ nav ul {
     opacity: 1; } }
 
 footer {
+  background-color: #7e59;
   margin-top: 10%; }
-  footer div {
-    margin-left: 70%;
-    margin-bottom: 2%; }
-  footer p {
-    color: #0d09ce; }
   footer a {
     text-decoration: none; }
+  footer p {
+    color: #000000; }
   footer img {
     width: 12%;
-    height: 15%; }
+    height: 30%; }
 
 @media only screen and (max-width: 600px) {
   nav ul {
@@ -72,19 +75,22 @@ footer {
     nav ul li .navActivo {
       color: #17036e;
       font-size: 1.2rem; }
-  footer p {
-    font-size: 0.625rem;
-    word-spacing: 0.4rem; } }
+  footer {
+    margin-top: 15%; }
+    footer p {
+      font-size: 0.625rem; } }
 
 @media only screen and (min-width: 600px) {
-  footer p {
-    font-size: 0.775rem;
-    word-spacing: 0.3rem; } }
+  footer {
+    margin-top: 15%; }
+    footer p {
+      font-size: 0.775rem; } }
 
 @media only screen and (min-width: 992px) {
-  footer p {
-    font-size: 0.895rem;
-    word-spacing: 0.3rem; } }
+  footer {
+    margin-top: 15%; }
+    footer p {
+      font-size: 0.895rem; } }
 
 .nombreSuicide {
   width: 100%;
@@ -105,7 +111,7 @@ footer {
   align-items: center;
   justify-items: center; }
   .index .descripcion {
-    color: #808080;
+    color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
     padding-right: 1rem;
     line-height: 2; }
@@ -146,11 +152,6 @@ footer {
   grid-template-rows: 28.75rem 28.75rem 28.75rem;
   grid-column-gap: 2.5rem;
   grid-row-gap: 3.125rem; }
-
-h1 {
-  color: #8f93ff;
-  font-family: 'Ubuntu', sans-serif;
-  padding-left: 5%; }
 
 @media only screen and (max-width: 600px) {
   .albums {
@@ -197,6 +198,55 @@ h1 {
   color: #000000;
   background-color: #808080;
   border: #808080; }
+
+@media only screen and (max-width: 600px) {
+  .tourList li {
+    font-size: 0.825rem; }
+    .tourList li .buttonColor {
+      margin-top: 1.7rem;
+      height: 2.125;
+      width: 3.25;
+      font-size: 0.825rem; }
+  .redireccionVideos {
+    font-size: 0.825rem; }
+  .redireccionBoton button {
+    margin-top: 1.7rem;
+    height: 2.125;
+    width: 3.25;
+    font-size: 0.825rem; } }
+
+@media only screen and (min-width: 600px) {
+  .tourList li {
+    font-size: 0.925rem; }
+    .tourList li .buttonColor {
+      margin-top: 1.7rem;
+      height: 1.125;
+      width: 2.25;
+      font-size: 0.9rem; }
+  .redireccionVideos {
+    font-size: 0.925rem; }
+  .redireccionBoton button {
+    margin-top: 1.7rem;
+    height: 1.125;
+    width: 2.25;
+    font-size: 0.9rem; } }
+
+@media only screen and (min-width: 992px) {
+  .tourList li {
+    font-size: 1rem; }
+    .tourList li .buttonColor {
+      margin-top: 1.7rem;
+      height: 3.125;
+      width: 6.25;
+      font-size: 1.2rem; }
+  .redireccionVideos {
+    font-size: 1rem; }
+  .redireccionBoton button {
+    margin-top: 1.7rem;
+    height: 3.125;
+    width: 6.25;
+    font-size: 1.2rem;
+    font-size: 1rem; } }
 
 .divImg {
   padding-left: 25%; }
@@ -253,10 +303,10 @@ h1 {
       height: 100%; } }
 
 label {
-  color: #c07d7d; }
+  color: #ffffff; }
 
 .edadColor {
-  color: #c07d7d; }
+  color: #ffffff; }
 
 .formTamanio {
   margin-top: 5%;
@@ -273,16 +323,42 @@ label {
   border: #808080; }
 
 @media only screen and (max-width: 600px) {
+  form p {
+    font-size: 0.825rem; }
+  form label {
+    font-size: 0.825rem; }
   .buttonForm {
     margin-top: 1.7rem;
     height: 2.125;
     width: 3.25;
-    font-size: 1rem; } }
+    font-size: 0.825rem; } }
+
+@media only screen and (min-width: 600px) {
+  form p {
+    font-size: 0.9rem; }
+  form label {
+    font-size: 0.9rem; }
+  .buttonForm {
+    margin-top: 1.7rem;
+    height: 1.125;
+    width: 2.25;
+    font-size: 0.9rem; } }
+
+@media only screen and (min-width: 992px) {
+  form p {
+    font-size: 1rem; }
+  form label {
+    font-size: 1rem; }
+  .buttonForm {
+    margin-top: 1.7rem;
+    height: 3.125;
+    width: 6.25;
+    font-size: 1.2rem; } }
 
 .error {
   color: #ff0000;
   text-align: center;
-  font-size: 80px; }
+  font-size: 5rem; }
 
 .errorTexto {
   color: #ffff00;
